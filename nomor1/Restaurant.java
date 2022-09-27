@@ -38,7 +38,7 @@ public class Restaurant {
     }
   }
  
-  public void pesan(String nama_makanan, int jmlPesanan){
+  public void pesanMakanan(String nama_makanan, int jmlPesanan){
     for (int i = 0; i <= id; i++) {
       if (nama_makanan.toLowerCase().equals(this.nama_makanan[i])) {
         if (jmlPesanan > stok[i]) {

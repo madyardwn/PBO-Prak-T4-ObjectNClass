@@ -65,7 +65,7 @@ public class RestaurantMain {
         }
         System.out.print("Masukkan jumlah pesanan : ");
         int jmlPesanan = new Scanner(System.in).nextInt();
-        menu.pesan(nama, jmlPesanan);
+        menu.pesanMakanan(nama, jmlPesanan);
         pause();
       } else
 
